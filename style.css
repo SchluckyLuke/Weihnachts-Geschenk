@@ -1,0 +1,45 @@
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+
+.img {
+    position: absolute;
+    width: 35%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px black;
+}
+
+.i1 {
+    top: 10%;
+    left: 10%;
+    transform: rotate(-5deg);
+}
+
+.i2 {
+    top: 25%;
+    right: 10%;
+    transform: rotate(8deg);
+}
+
+.i3 {
+    bottom: 5%;
+    left: 40%;
+    transform: rotate(-3deg);
+}
+
+@media (max-width: 600px) {
+    .img {
+        position: static;
+        width: 90%;
+        transform: none;
+        margin: 20px auto;
+        display: block;
+    }
+
+    body {
+        height: auto;
+        padding: 20px;
+    }
+}
