@@ -1,39 +1,19 @@
-body {
-    position: relative;
-    height: 100vh;
-    margin: 0;
-}
+
 
 .img {
-    position: absolute;
-    width: 35%;
     border-radius: 20px;
     box-shadow: 0px 0px 50px black;
 }
 
-.i1 {
-    top: 10%;
-    left: 10%;
-    transform: rotate(-5deg);
-}
-
-.i2 {
-    top: 25%;
-    right: 10%;
-    transform: rotate(8deg);
-}
-
-.i3 {
-    bottom: 5%;
-    left: 40%;
-    transform: rotate(-3deg);
-}
-
-
 #message-container{
     top: 50%;
     left: 50%;
-    position: absolute;
+    position: static;
+    color: rgb(255, 20, 98);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 10px rgb(182, 0, 61);
+    font-size: 120%;
+    text-align: center;
 }
 
 .img {
@@ -47,4 +27,13 @@ body {
 body {
     height: auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    color: rgb(15, 87, 15);
+    text-shadow: 0px 0px 10px rgb(2, 46, 19);
+    font-size: 25px;
 }
