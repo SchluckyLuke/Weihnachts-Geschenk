@@ -29,8 +29,14 @@ body {
     transform: rotate(-3deg);
 }
 
-@media (max-width: 600px) {
-    .img {
+
+#message-container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.img {
         position: static;
         width: 90%;
         transform: none;
@@ -38,8 +44,7 @@ body {
         display: block;
     }
 
-    body {
-        height: auto;
-        padding: 20px;
-    }
+body {
+    height: auto;
+    padding: 20px;
 }
